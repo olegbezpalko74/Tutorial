@@ -1,3 +1,13 @@
 body {
-    background-color:tomato;
+    background-color:#fff;
+}
+.test-link {
+    color: black;
+}
+.test-link:hover,
+.test-link:focus {
+    color: tomato;
+}
+.test-link:active {
+    color: blue;
 }
