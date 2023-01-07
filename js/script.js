@@ -1,7 +1,5 @@
-const isUserLoggedIn = true;
-const age = 18;
-const name = 'Oleg';
 
-if (age === 18 && name === 'Oleg') {
-    alert ("Congrats");
-}
+
+let num1 = 12.6;
+let num2 ='OLEG';
+console.log(num1.toFixed());
