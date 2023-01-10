@@ -14,4 +14,24 @@
 // console.log('elementHeight:', elementHeight);
 
 
-let 
+// const x1 = 5;
+// const x2 = 10;
+// const number = 45;
+
+// console.log(`число ${number} попадає у відрізок до ${x1}`,number < x1);
+// console.log(`число ${number} попадає у відрізок після ${x2}`,number > x2);
+
+// const res1 = number > x1 && number < x2;
+
+// console.log(`число ${number} попадає у відрізок після ${x1} та до ${x2}`, res1);
+
+// const res2 = number < x1 || number > x2;
+
+// console.log(`число ${number} попадає у відрізок до ${x1} та після ${x2}`, res2);
+
+const isOnline = true;
+const isFriend = true;
+const isDnd = false;
+const canOpenChat = isOnline && isFriend && !isDnd;
+console.log('Можна відкрити чат??',canOpenChat);
+
