@@ -29,9 +29,22 @@
 
 // console.log(`число ${number} попадає у відрізок до ${x1} та після ${x2}`, res2);
 
-const isOnline = true;
-const isFriend = true;
-const isDnd = false;
-const canOpenChat = isOnline && isFriend && !isDnd;
-console.log('Можна відкрити чат??',canOpenChat);
+// const isOnline = true;
+// const isFriend = true;
+// const isDnd = false;
+// const canOpenChat = isOnline && isFriend && !isDnd;
+// console.log('Можна відкрити чат??',canOpenChat);
+const userName = 'Oleg';
+const age = 48;
+const gender = 'male'
+function sayHello(name,age,gender) {
+    alert('Hello,dear ' + name)
+    if (age < 49) {
+        alert('you are too young')
+    }
+    if (gender === 'male') {
+        alert('welcome to the club')
+    }
+}
+sayHello(userName,age,gender);
 
