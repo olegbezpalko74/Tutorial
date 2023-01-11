@@ -1,50 +1,29 @@
-// let quantity = prompt('Кількість');
-// quantity = Number(quantity);
+// const stars = 7;
+// let price;
+// switch(stars) {
+//     case 1 :
+//         price = 20;
+//         break;
+//     case 2 :
+//         price = 30;
+//         break;
+//     case 3 :
+//         price = 50;
+//         break;
+//     case 4 :
+//         price = 70;
+//         break;
+//     case 5 :
+//         price = 120;
+//         break;
 
-// console.log(quantity);
-// console.log(typeof quantity);
+//     default :
+//     console.log('Такої кількості зірок нема');    
 
+// }
+// console.log(price);
 
-// let elementWidth = '50px';
-// elementWidth = Number. parseInt(elementWidth);
-// console.log('elementwidth:', elementWidth);
-
-// let elementHeight = '50.56px';
-// elementHeight = Number. parseFloat(elementHeight);
-// console.log('elementHeight:', elementHeight);
-
-
-// const x1 = 5;
-// const x2 = 10;
-// const number = 45;
-
-// console.log(`число ${number} попадає у відрізок до ${x1}`,number < x1);
-// console.log(`число ${number} попадає у відрізок після ${x2}`,number > x2);
-
-// const res1 = number > x1 && number < x2;
-
-// console.log(`число ${number} попадає у відрізок після ${x1} та до ${x2}`, res1);
-
-// const res2 = number < x1 || number > x2;
-
-// console.log(`число ${number} попадає у відрізок до ${x1} та після ${x2}`, res2);
-
-// const isOnline = true;
-// const isFriend = true;
-// const isDnd = false;
-// const canOpenChat = isOnline && isFriend && !isDnd;
-// console.log('Можна відкрити чат??',canOpenChat);
-const userName = 'Oleg';
-const age = 48;
-const gender = 'male'
-function sayHello(name,age,gender) {
-    alert('Hello,dear ' + name)
-    if (age < 49) {
-        alert('you are too young')
-    }
-    if (gender === 'male') {
-        alert('welcome to the club')
-    }
+for (let i = 1; i <= 12; i += 3) {
+    console.log(i);
 }
-sayHello(userName,age,gender);
-
+console.log('stop');
