@@ -1,29 +1,35 @@
-// const stars = 7;
-// let price;
-// switch(stars) {
-//     case 1 :
-//         price = 20;
-//         break;
-//     case 2 :
-//         price = 30;
-//         break;
-//     case 3 :
-//         price = 50;
-//         break;
-//     case 4 :
-//         price = 70;
-//         break;
-//     case 5 :
-//         price = 120;
-//         break;
 
-//     default :
-//     console.log('Такої кількості зірок нема');    
 
+// for (let i = 1; i <= 12; i += 3) {
+//     console.log(i);
 // }
-// console.log(price);
+// console.log('stop');
 
-for (let i = 1; i <= 12; i += 3) {
-    console.log(i);
-}
-console.log('stop');
+// const name = 'Mango';
+// console.log(name.split(''));
+
+//  const message = "JavaScript это интересно";
+//  console.log(message.split(" "));
+
+
+//  const words = ["JavaScript", "это", "интересно"];
+//  console.log(words.join("-"));
+
+//  const clients = ["Mango", "Ajax", "Poly", "Kiwi"];
+//  console.log(clients.slice(2,4));
+
+
+// const scores = [1, 2, 3, 4, 5];
+// const deletedScores = scores.splice(0, 3);
+// console.log(scores);
+// console.log(deletedScores);
+
+// const colors = ["red", "green", "blue"];
+// colors.splice(2, 0, "purple");
+// console.log(colors);
+
+const languages = ["C", "C++", "Java", "JavaScript"];
+// languages.splice(1, 1, "payton");
+console.log(languages);
+
+languages.splice(2, 1, "C#", "Swift", "Go");
