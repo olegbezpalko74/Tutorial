@@ -30,6 +30,9 @@
 
 const languages = ["C", "C++", "Java", "JavaScript"];
 // languages.splice(1, 1, "payton");
-console.log(languages);
+
 
 languages.splice(2, 1, "C#", "Swift", "Go");
+// console.log(languages);
+console.table(languages);
+console.log(languages[3]);
