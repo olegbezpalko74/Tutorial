@@ -28,11 +28,44 @@
 // colors.splice(2, 0, "purple");
 // console.log(colors);
 
-const languages = ["C", "C++", "Java", "JavaScript"];
-// languages.splice(1, 1, "payton");
+// const languages = ["C", "C++", "Java", "JavaScript"];
+// // languages.splice(1, 1, "payton");
 
 
-languages.splice(2, 1, "C#", "Swift", "Go");
-// console.log(languages);
-console.table(languages);
-console.log(languages[3]);
+// languages.splice(2, 1, "C#", "Swift", "Go");
+// // console.log(languages);
+// console.table(languages);
+// console.log(languages[3]);
+
+// const userName = 'Oleg';
+// const age = 20;
+// const gender = 'male';
+
+
+
+// function sayHello(name, age, gender) {
+    
+//     alert('Hello dear ' + name)
+//     if (age < 18) {
+//         alert('hello')
+      
+//     }
+//     if (gender === 'male') {
+//         alert('Welcome')
+//     }
+
+// }
+
+// sayHello(userName, age, gender);
+
+
+function sayHello(greetings) {
+    alert(greetings);
+
+}
+sayHello('привіт');
+
+const sayHello2 = function(greetings) {
+    alert(greetings);
+}
+sayHello2('LOOOOOO');
