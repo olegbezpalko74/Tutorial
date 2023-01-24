@@ -88,3 +88,26 @@ const freinds = [
     {name:'ajax', online:false},
 ];
 console.table(freinds);
+
+// for (const freind of freinds){
+//     console.log(freind);
+
+//     freind.newprop = 555;
+// };
+// console.table(freinds);
+
+const findFreindByName = function(allFreinds, name){
+    for (const freind of allFreinds){
+        // console.log(freind);
+        // console.log(freind.name);
+        if (freind.name === name){
+            return 'vivat'
+        }
+    }
+    return 'not vivat'
+
+};
+// console.log(findFreindByName(freinds, 'poly'));
+// console.log(findFreindByName(freinds, 'chelsy'));
+
+
