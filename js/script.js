@@ -81,13 +81,13 @@ let totalFeedBack = 0;
 
 // Массив обьектов 
 
-const freinds = [
-    {name:'Mango', online: true },
-    {name:'kiwi', online: false},
-    {name: 'poly', online: true},
-    {name:'ajax', online:false},
-];
-console.table(freinds);
+// const freinds = [
+//     {name:'Mango', online: true },
+//     {name:'kiwi', online: false},
+//     {name: 'poly', online: true},
+//     {name:'ajax', online:false},
+// ];
+// console.table(freinds);
 
 // for (const freind of freinds){
 //     console.log(freind);
@@ -96,18 +96,21 @@ console.table(freinds);
 // };
 // console.table(freinds);
 
-const findFreindByName = function(allFreinds, name){
-    for (const freind of allFreinds){
-        // console.log(freind);
-        // console.log(freind.name);
-        if (freind.name === name){
-            return 'vivat'
-        }
-    }
-    return 'not vivat'
+// const findFreindByName = function(allFreinds, name){
+//     for (const freind of allFreinds){
+//         // console.log(freind);
+//         // console.log(freind.name);
+//         if (freind.name === name){
+//             return 'vivat'
+//         }
+//     }
+//     return 'not vivat'
 
-};
-// console.log(findFreindByName(freinds, 'poly'));
-// console.log(findFreindByName(freinds, 'chelsy'));
+// };
+// //  console.log(findFreindByName(freinds, 'poly'));
+//  console.log(findFreindByName(freinds, 'chelsy'));
+
+
+console.log(..."dfdfdfdf");
 
 
