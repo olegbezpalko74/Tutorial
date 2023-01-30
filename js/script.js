@@ -111,6 +111,36 @@ let totalFeedBack = 0;
 //  console.log(findFreindByName(freinds, 'chelsy'));
 
 
-console.log(..."dfdfdfdf");
+// console.log(..."dfdfdfdf");
+
+// const authors = {
+//     kiwi: 5,
+//     poly: 7,
+//     mango: 4,
+//     ajax: 2,
+// };
+
+// const entries = Object.entries(authors);
+
+// console.log(entries);
+
+// for (const entry of entries){
+//     const [name, rating] = entry;
+//     console.log(name, rating);
+
+// }
+function countTotalSalary(salaries) {
+    let totalSalary = 0;
+    // Change code below this line
+    const name = Object.keys(salaries);
+    const salary = Object.values(salaries);
+    concole.log(salary);
+    
+  
+    // Change code above this line
+    return totalSalary;
+  }
+
+
 
 
