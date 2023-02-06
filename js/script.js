@@ -35,12 +35,27 @@
 // // });
 // numbers.forEach((number, index) => {
 //   console.log(`Индекс ${index}, значение ${number}`);
-// });
+// // });
 
-const numbers = [5, 10, 15, 20, 25];
+// const numbers = [5, 10, 15, 20, 25];
 
-const logMessage = (number, index) => {
-  console.log(`Индекс ${index}, значение ${number}`);
-};
+// const logMessage = (number, index) => {
+//   console.log(`Индекс ${index}, значение ${number}`);
+// };
 
-numbers.forEach(logMessage);
+// numbers.forEach(logMessage);
+const students = [
+  { name: "Манго", score: 83 },
+  { name: "Поли", score: 59 },
+  { name: "Аякс", score: 37 },
+  { name: "Киви", score: 94 },
+];
+
+// const inAscendingScoreOrder = students.sort(
+//   (firstStudent, secondStudent) => firstStudent.score - secondStudent.score
+// );
+
+const inDescendingScoreOrder = students.sort(
+  (firstStudent, secondStudent) => secondStudent.score - firstStudent.score
+);
+console.log(students)
