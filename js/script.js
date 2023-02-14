@@ -29,3 +29,18 @@
 // }
 // console.log(i);
 
+document.getElementById("btn-hapines").addEventListener('click', function() {
+document.querySelector(".img").style.display = 'inline';
+document.getElementById("btn-hapines").disabled = true;
+document.getElementById("btn-sadnes").disabled = false;
+})
+
+document.getElementById("btn-sadnes").addEventListener('click', function() {
+    document.querySelector(".img").style.display = 'none';
+    document.getElementById("btn-hapines").disabled = false;
+    document.getElementById("btn-sadnes").disabled = true;
+    })
+
+
+
+

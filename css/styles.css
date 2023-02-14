@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #fff;
 }
 .test-link {
@@ -10,4 +10,17 @@ body {
 }
 .test-link:active {
     color: blue;
+} */
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+.image-container {
+    text-align: center;
+}
+.img {
+    display: none;
+    width: 70%;
+    margin-bottom: 10px;
 }
