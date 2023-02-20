@@ -29,17 +29,52 @@
 // }
 // console.log(i);
 
-document.getElementById("btn-hapines").addEventListener('click', function() {
-document.querySelector(".img").style.display = 'inline';
-document.getElementById("btn-hapines").disabled = true;
-document.getElementById("btn-sadnes").disabled = false;
-})
+// const happiButton = document.getElementById("btn-hapines");
+// const sadButton = document.getElementById("btn-sadnes");
+// const img = document.querySelector(".img");
 
-document.getElementById("btn-sadnes").addEventListener('click', function() {
-    document.querySelector(".img").style.display = 'none';
-    document.getElementById("btn-hapines").disabled = false;
-    document.getElementById("btn-sadnes").disabled = true;
-    })
+
+// happiButton.addEventListener('click', function() {
+//     img.style.display = 'inline';
+//     happiButton.disabled = true;
+//     sadButton.disabled = false;
+// })
+
+// sadButton.addEventListener('click', function() {
+//     img.style.display = 'none';
+//     happiButton.disabled = false;
+//     sadButton.disabled = true;
+//     })
+
+
+// const imgEl = document.createElement('img');
+// console.log(imgEl);
+// imgEl.src = ''
+// imgEl.alt = '';
+// imgEl.width = '500';
+
+// document.body.appendChild(imgEl);
+
+const navItemEl = document.createElement('li');
+ navItemEl.classList.add('site-nav__item');
+
+const navLinkEl = document.createElement('a');
+navLinkEl.classList.add('site-nav__link');
+navLinkEl.textContent = 'кабінет';
+navLinkEl.href = '/profil';
+
+navItemEl.appendChild(navLinkEl);
+console.log(navItemEl);
+
+const navEl = document.querySelector('.site-nav');
+// navEl.appendChild(navItemEl);
+
+navEl.insertBefore(navItemEl, navEl.children[2]);
+
+
+
+
+
 
 
 
