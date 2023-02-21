@@ -55,23 +55,52 @@
 
 // document.body.appendChild(imgEl);
 
-const navItemEl = document.createElement('li');
- navItemEl.classList.add('site-nav__item');
+// const navItemEl = document.createElement('li');
+//  navItemEl.classList.add('site-nav__item');
 
-const navLinkEl = document.createElement('a');
-navLinkEl.classList.add('site-nav__link');
-navLinkEl.textContent = 'кабінет';
-navLinkEl.href = '/profil';
+// const navLinkEl = document.createElement('a');
+// navLinkEl.classList.add('site-nav__link');
+// navLinkEl.textContent = 'кабінет';
+// navLinkEl.href = '/profil';
 
-navItemEl.appendChild(navLinkEl);
-console.log(navItemEl);
+// navItemEl.appendChild(navLinkEl);
+// console.log(navItemEl);
 
-const navEl = document.querySelector('.site-nav');
-// navEl.appendChild(navItemEl);
+// const navEl = document.querySelector('.site-nav');
+// // navEl.appendChild(navItemEl);
 
-navEl.insertBefore(navItemEl, navEl.children[2]);
+// navEl.insertBefore(navItemEl, navEl.children[2]);
 
 
+
+const targetButton = document.querySelector('.js-target-btn');
+const addListener = document.querySelector('.js-add-listener');
+const removeListener = document.querySelector('.js-remove-listener');
+
+
+// targetButton.addEventListener('click', () => {
+//     console.log('click');
+// });
+
+addListener.addEventListener('click', () => {
+    console.log('вішаємо слухача  на цільову кнопку');
+
+
+    targetButton.addEventListener('click', onTargetButtonClick);
+});
+
+   removeListener.addEventListener('click', () => {
+    console.log('знімаємо слухача  на цільову кнопку');
+
+    targetButton.removeEventListener('click', onTargetButtonClick);
+});
+
+
+
+function onTargetButtonClick() {
+    console.log( 'клік по цільовій кнопці');
+
+}
 
 
 
