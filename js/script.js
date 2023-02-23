@@ -73,34 +73,76 @@
 
 
 
-const targetButton = document.querySelector('.js-target-btn');
-const addListener = document.querySelector('.js-add-listener');
-const removeListener = document.querySelector('.js-remove-listener');
+// const targetButton = document.querySelector('.js-target-btn');
+// const addListener = document.querySelector('.js-add-listener');
+// const removeListener = document.querySelector('.js-remove-listener');
 
 
 // targetButton.addEventListener('click', () => {
 //     console.log('click');
 // });
 
-addListener.addEventListener('click', () => {
-    console.log('вішаємо слухача  на цільову кнопку');
+// addListener.addEventListener('click', () => {
+//     console.log('вішаємо слухача  на цільову кнопку');
 
 
-    targetButton.addEventListener('click', onTargetButtonClick);
-});
+//     targetButton.addEventListener('click', onTargetButtonClick);
+// });
 
-   removeListener.addEventListener('click', () => {
-    console.log('знімаємо слухача  на цільову кнопку');
+//    removeListener.addEventListener('click', () => {
+//     console.log('знімаємо слухача  на цільову кнопку');
 
-    targetButton.removeEventListener('click', onTargetButtonClick);
-});
+//     targetButton.removeEventListener('click', onTargetButtonClick);
+// });
 
 
 
-function onTargetButtonClick() {
-    console.log( 'клік по цільовій кнопці');
+// function onTargetButtonClick() {
+//     console.log( 'клік по цільовій кнопці');
 
-}
+// }
+
+const user = [
+    {
+        name: 'Oleg',
+        age: 48,
+        sex: 'male',
+
+},
+{
+    name: 'Mariy',
+    age: 8,
+    sex: 'female',
+},
+{
+    name: 'Dasha',
+    age: 8,
+    sex: 'female',
+},
+{
+    name: 'Sasha',
+    age: 36,
+    sex: 'female',
+},
+{
+    name: 'Nikoly',
+    age: 71,
+    sex: 'male',
+},
+];
+
+
+user.push({
+    name: 'Vira',
+    age: 71,
+    sex: 'female',
+},)
+
+
+const foundObj = user.filter( function(item){
+    return item.age < 17;
+})
+console.log(foundObj);
 
 
 
