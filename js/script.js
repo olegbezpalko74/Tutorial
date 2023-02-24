@@ -139,10 +139,10 @@ user.push({
 },)
 
 
-const foundObj = user.filter( function(item){
-    return item.age < 17;
-})
+const foundObj = user.filter( (item) => item.age < 17);
 console.log(foundObj);
+
+
 
 
 
