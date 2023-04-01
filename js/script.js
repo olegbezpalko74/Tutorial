@@ -1,13 +1,22 @@
-  try {
-    console.log('внутри try до myVar');
-    myVar;
-     console.log('внутри try после myVar');
+const validJSON = '{ "name": "Mango", "age": 3 }';
+const invalidJSON = '{ бекенд плужит } ';
 
- } catch ( error) {
-    console.log('Ошибка!');
+try {
+  console.log(1);
+console.log(JSON.parse(invalidJSON));
 
- }
- console.log('после try...catch');
+console.log(2);
+  
+} catch (error) {
+  console.log( error);
+  if (error.name === 'SyntaxError'); {
+    console.log('help');
+  }
+
+}
+
+
+console.log(999);
 
 
 
